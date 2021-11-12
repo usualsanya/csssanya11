@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "my font";
+    src: url("../assets/Bluu\ Next\ Cyrillic.otf");
+}
+
+@keyframes width-animation {
+    from {width: 200px;} 
+    to 
+    {width: 1000px;}
+}
+
+
+
+.rect{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    filter: blur(40px);
+    text-align: center;
+    animation: width-animation 0.7s infinite alternate;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 561%;
+    text-align: center;
+    margin: 182px;
+    filter: blur(4px);
+    transition: all 0.2s;
+}
+
+h1:hover {
+    color: rgb(251, 255, 0);
+    filter:none;
+    text-shadow: rgb(255, 0, 0) 0px 0px 200px;
+    transition: all 0.2s;
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+
+h2{
+    color: rgb(92, 92, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 104%;
+    text-align: center; 
+    margin: 50px;
+
+}
+
+
+.beautiful-element {
+    color: rgb(255, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    margin: 40px;
+}
+
+.beautiful-element2 {
+    color: rgb(255, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    margin: 70px;
+}
+
+.image {
+    margin: 20px;
+    transform: rotate(45deg);
+}
+
+
+.image img {
+    width: 200px;
+}
+
+.image2 {
+    margin: 20px;
+    text-align: center;
+    transform: rotate(85deg);
+    
+}
+
+.image2 img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.image3 {
+    margin: 20px;
+    text-align: right;
+    transform: rotate(-25deg);
+}
+
+.image4 {
+    margin: 20px;
+    text-align: right;
+    transform: rotate(-65deg);
+}
+
+.image4 img {
+    width: 200px;
+}
+
+.image3 img {
+    width: 200px;
+
+}
+
+.gallery {
+    display: flex;
+}
+
+
+.gallery:hover {
+    text-shadow: rgb(255, 238, 0) 0px 0px 10px;
+    transition: all 0.2s;
+}
+
+.item {
+    flex: 1;}
+    
